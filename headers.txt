@@ -1,0 +1,18 @@
+User-Agent: 		Describes the software that is making the call
+Accept: 		Informs the server about the types of data that can be sent back
+Cache-Control: 		Controls whether one can cache the reponse
+Postman-Token: 		Custom token from Postman
+Host: 			Who is the host? Where is the request going to?
+Accept-Encoding: 	How is the data encoded? Defines type of encoding.
+Connection: 		Controls whether the network connection stays open after the current transaction finishes
+Content-Type: 		Defines format and type of response
+Vary: 			Determines how to match request headers to decide whether a cached response can be used rather than requesting a fresh one from the origin server. 
+Content-Encoding: 	Defines response encoding type
+Date: 			Date of response
+Server: 		Defines type of origin server
+Cache-Control: 		Defines permissions for caching
+X-XSS-Protection: 	Enables cross-site scripting filtering
+X-Frame-Options: 	Indicates whether a browser should be allowed to render a page in a <frame>, <iframe>, <embed> or <object>.
+X-Content-Type-Options: Disables MIME sniffing and forces browser to use the type given in Content-Type
+Alt-Svc: 		Used to list alternate ways to reach this service
+Transfer-Encoding: 	How the response is encoded when transfering the resource to the user
